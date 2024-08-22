@@ -1,0 +1,332 @@
+#navbar{
+    height: 34px;
+border: 3px solid black;
+font-size: 23px;
+}
+#hero-section{
+    height: 700px;
+    width: 100%;
+    /* border: 3px solid black; */
+    display: flex;
+    background-color: white;
+}
+#blog{
+    height: 300px;
+    width: 50%;
+    /* border: 2px solid green; */
+    margin: 12px;
+   background: url(kitchen.webp);
+ background-size: cover;
+ z-index: -1;
+ opacity: 12;
+}
+
+#blogimg{
+height: 850px;
+width: 700px;
+padding: 45px;
+margin: 45px;
+margin-left: 12px;
+/* border: 2px solid black; */
+background: url(blogex.avif);
+
+}
+
+#blog-of-week{
+    height: 120px;
+    /* border:3px solid red; */
+    margin-top: 12px;
+    font-size: 23px;
+}
+#footer{
+    height: 90px;
+    /* border: 6px solid violet; */
+    margin-top: 23px;
+    font-size: 23px;
+}
+#blogName{
+    /* background-color: rgb(180, 180, 220); */
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+#intro{
+    margin-top: 12px;
+ color: black;
+ text-align: center;
+ font-size: 24px;
+ color: rgb(188, 235, 235);
+}
+/* button{
+    background-color: rgb(225, 157, 157);
+    color: black;
+    border: 3px solid black;
+    border-radius: 23%;
+    width: 22%;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    height: 34px;
+    margin: 22px;
+    
+} */
+/* button:hover{
+    background-color: violet;
+    border-radius: 23%;
+} */
+
+
+#bow{
+    height: 234px;
+    border-radius: 63px;
+    width: 100%;
+    /* border: 2px solid green; */
+}
+#bimage{
+    background: url(kitchen4.webp);
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+ background-size: cover;
+}
+#footer{
+    height: 112px;
+    width: 100%;
+    border: 2px solid black;
+    font-size: 45px;
+}
+
+#most{
+    height: 70vh;
+ 
+    width: 90%;
+    margin: 34PX;
+   /* border: 2px solid black; */
+   }
+
+.button{
+    position: absolute;
+    width: 220px;
+    height: 370px;
+  transition: 0.7s;
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 20px;
+
+}
+.container{
+    width: 90%;
+    /* border: 2PX SOLID BLACK; */
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+  
+    align-items: center;
+    /* overflow: hidden; */
+}
+
+.imgContainer{
+    width: 80%;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+   
+}
+
+.slide_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px 0 30px;
+}
+
+img{
+    position: relative;
+    height: 300px;
+    width: 240px;
+    filter: saturate(10%);
+    transition: 0.7s;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+
+.button{
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    transition: 0.7s;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 150PX;
+}
+
+#slider1:target ~ .imgContainer #img1,
+#slider1:target ~ .imgContainer #button1{
+    width: 300px;
+    height: 400px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider2:target ~ .imgContainer #img2,
+#slider2:target ~ .imgContainer #button2{
+    width: 300px;
+    height: 400px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider3:target ~ .imgContainer #img3,
+#slider3:target ~ .imgContainer #button3{
+    width: 300px;
+    height: 400px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+#slider4:target ~ .imgContainer #img4,
+#slider4:target ~ .imgContainer #button4{
+    width: 300px;
+    height: 400px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider5:target ~ .imgContainer #img5,
+#slider5:target ~ .imgContainer #button5{
+    width: 300px;
+    height: 400px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+
+#slider1:target ~ .imgContainer{
+    left: 60%;
+}
+#slider2:target ~ .imgContainer{
+    left: 40%;
+}
+#slider3:target ~ .imgContainer{
+    left: 20%;
+}
+#slider4:target ~ .imgContainer{
+    left: 0%;
+}
+#slider5:target ~ .imgContainer{
+    left: -20%;
+}
+
+
+
+
+
+#mbtn{
+    width: 500px;
+    height: 270px;
+    object-fit: cover;
+    margin-top: 100px;
+    border-radius: 34px;
+    z-index: -1;
+    opacity: 123;
+background-image: url(kitchen3.webp);
+
+}
+
+
+
+#bowbtn:hover{
+background-color: antiquewhite;
+}
+#blogimg{
+   height: 600px;
+   padding: 20px;
+   margin-left: 40px;
+   margin-right: 40px;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: center;
+   gap: 40px;
+  
+}
+#blogimg img{
+    width: 100%;
+    height: 500px;
+    margin-left: 300px;
+   
+    height: 695px;
+}
+.heromatter a:hover{
+    background-color: brown;
+
+}
+#latest{
+    height: 600px;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+#lb1{
+    height: 300px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    margin: 12px;
+}
+#lb2{
+    height: 300px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    margin: 12px;
+}
+#lb1:hover{
+    background-color: rgb(189, 189, 222);
+}
+#lb2:hover{
+    background-color: rgb(202, 202, 237);
+}
+#mimg1:hover{
+  background-color: red;
+}
+#latestblogs{
+    font-size: 34px; 
+    width: 534px; 
+    border-radius: 23px;
+    background-color: aqua;
+
+}
+#latestblogs:hover{
+    width: 734px;
+    background-color: rgb(219, 162, 171);
+}
+#mpara{
+    color:black;
+     font-size: 30px;
+     background-color: greenyellow; 
+      width: 400px;
+      border-radius: 23px;
+      position: left;
+      align-items: left;
+}
+#mpara:hover{
+    background-color: rgb(159, 239, 239);
+    width: 600px ;
+}
+#bpara{
+    font-size: 30px;
+     margin-top: 23px; 
+      background-color: violet;
+       margin-bottom: 12px; 
+       width: 634px;
+       border-radius: 23px;
+}
+#bpara:hover{
+    background-color:rgb(137, 137, 242) ;
+    width: 890px;
+}
